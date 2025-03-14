@@ -1,0 +1,60 @@
+.a_txt {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.a_wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a_me {  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.a_me_svg{
+  width: 25vw;
+  min-width: 200px;
+}
+
+.a_me{
+  margin-top: 20px;
+}
+
+.a_me h1{
+  font-family: 'Chab', sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  overflow: hidden; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  color: inherit;
+  letter-spacing: 3px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: 
+    typing 2s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+.a_s_txt {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 760px) {
+  .m_h_txt h1{
+    font-size: 30px;
+  }
+  .m_s_txt {
+      font-size: 18px;
+  }
+}

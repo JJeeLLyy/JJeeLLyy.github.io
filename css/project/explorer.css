@@ -1,0 +1,93 @@
+.explorer {
+  width: 200px;
+  color: #ECE1D3;
+  background-color: #8E614D;
+  border-right: 1px solid #5F4033;
+}
+
+.e_title {
+  font-weight: 400;
+  padding: 20px 0 20px 20px;
+  letter-spacing: 4px;
+}
+
+.e_pf_wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 4px;
+}
+
+.e_pf_wrap button {
+  transition: 0.3s;
+}
+
+.e_pf_plus {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  margin-left: 5px;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.e_pf_plus.active .arrow {
+  transform: rotate(90deg);
+}
+
+.list {
+  display: none;
+  padding-left: 10px;
+}
+
+.list.active {
+  display: block;
+}
+
+.li_wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.li_link {
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #ECE1D3;
+  transition: color 0.3s ease;
+}
+
+.li_link:hover {
+  filter: invert(1%) saturate(4500%) hue-rotate(0deg) brightness(33%) contrast(100%);
+}
+
+.li_link.active {
+  filter: invert(1%) saturate(4500%) hue-rotate(0deg) brightness(33%) contrast(100%);
+}
+
+.e_svg {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1024px) {
+  .explorer {
+      display: none;
+      transition: width 0.5s ease-in-out;
+  }
+}
+

@@ -1,0 +1,37 @@
+.m_txt {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.aero_k{
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aero_k:hover {
+  transform: scale(1.1);
+}
+
+.aerok-link {
+  width: 300px;
+  height: 200px;
+  border: 3px solid #5F4033;
+  border-radius: 10px;
+}
+
+.aero_k_txt {
+  position: absolute;
+  bottom: 0; /* 이미지 하단에 붙이기 */
+  left: 0; /* 왼쪽 정렬 */
+  width: 100%; /* 이미지의 너비만큼 배경 확장 */
+  color: white; /* 텍스트 색상 */
+  font-size: 16px;
+  font-weight: bold;
+  background: #8e604da8;
+  padding: 10px 0; /* 위아래 패딩 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
