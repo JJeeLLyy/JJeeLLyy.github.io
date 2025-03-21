@@ -11,13 +11,6 @@
   justify-content: center;
 }
 
-.a_me {  
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-}
-
 .a_me {
   display: flex;
   align-items: center;
