@@ -1,0 +1,44 @@
+.m_txt {
+  display: flex;
+  gap: 100px;
+  margin: 50px 0 0 50px;
+  padding: 30px;
+}
+
+
+.aero_k,
+.lol {
+  position: relative;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.aero_k_img,
+.lol_img {
+  width: 350px;
+  height: 200px;
+  border: 1px solid #5F4033;
+  display: block;
+}
+
+.aero_k:hover .aero_k_img,
+.lol:hover .lol_img {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  transform: scale(1.15);
+}
+
+
+
+@media screen and (max-width: 1249px) {
+  .m_txt {
+      display: block;
+      transition: width 0.5s ease-in-out;
+  }
+  .aero_k,
+  .lol{
+    margin: 0 50px 50px 0;
+  }
+}
