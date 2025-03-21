@@ -2,7 +2,6 @@
   overflow-y: auto;
   overflow-x: hidden;
   margin-top: 50px;
-  padding: 30px;
 }
 
 .a_wrap {
@@ -19,35 +18,38 @@
   width: 100%;
 }
 
-.a_me_svg{
+.a_me {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.a_me_svg {
+  display: flex;
+  justify-content: center; 
   width: 25vw;
   min-width: 200px;
 }
 
-.a_me{
-  margin-top: 20px;
+.a_me_txt {
+  text-align: left; 
+  width: 100%;
+  margin-top: 10px; 
+  color: #000000;
+  font-size: 15px;
 }
 
-.a_me h1{
-  font-family: 'Chab', sans-serif;
-  font-size: 50px;
-  font-weight: lighter;
-  overflow: hidden; 
-  white-space: nowrap;
-  margin: 0 auto; 
-  color: inherit;
-  letter-spacing: 3px; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  animation: 
-    typing 2s steps(30, end),
-    blink-caret .75s step-end infinite;
+.a_me_txt p{
+  padding: 0;
 }
 
-.a_s_txt {
-  font-size: 20px;
+.a_s_n{
+  font-size: 15px;
   text-align: center;
   margin: 10px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #4e4e4e;
 }
 
 @media screen and (max-width: 760px) {
