@@ -1,5 +1,6 @@
 .m_txt {
   margin-top: clamp(0px, 5vh, 50px);
+  margin-left: clamp(0px, 5vh, 50px);
   padding: clamp(0px, 3vw, 30px); 
   display: flex;
   gap: 100px;
