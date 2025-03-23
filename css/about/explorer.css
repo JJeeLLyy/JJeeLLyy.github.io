@@ -1,8 +1,20 @@
-.explorer {
+.explorer_wrap {
   width: 200px;
-  color: #1E1E1E;
+  border-right: 1px solid #4D4D4D;
+  box-sizing: border-box;
   background-color: #FFE699;
-  height: 100%;
+  height: auto;
+  min-height: 95vh;
+}
+
+.explorer {
+  width: 100%;
+  padding: 20px 0;
+  color: #1E1E1E;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #FFE699;
 }
 
 .e_title {
@@ -85,7 +97,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .explorer {
+  .explorer_wrap {
       display: none;
       transition: width 0.5s ease-in-out;
   }

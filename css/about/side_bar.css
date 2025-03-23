@@ -5,7 +5,8 @@
     display: flex;
     flex-direction: column;
     background-color: #FFF5C2;
-    height: 100%;
+    height: auto;
+    min-height: 95vh; 
 }
   
 .side_bar {

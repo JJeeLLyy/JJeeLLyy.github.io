@@ -88,8 +88,3 @@ body {
   font-display: swap;
 }
 
-.page_wrap {
-  display: flex;
-  flex-direction: column;
-  height: calc(100vh - 25px);
-}
