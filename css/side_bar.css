@@ -1,0 +1,44 @@
+.side_bar_wrap {
+    width: 60px;
+    border-right: 1px solid #5F4033;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #A47764;
+    height: auto;
+    min-height: 95vh; 
+}
+  
+.side_bar {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A47764;
+}
+
+.s_svg {
+    width: 30px;
+    height: 30px;
+}
+
+.side_bar_top .btn,
+.side_bar_bottom .btn {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn:hover .s_svg {
+    filter: invert(1%) saturate(4500%) hue-rotate(0deg) brightness(33%) contrast(100%);
+}
+
+.btn.active .s_svg {
+    filter: invert(1%) saturate(4500%) hue-rotate(0deg) brightness(33%) contrast(100%);
+}

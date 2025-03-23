@@ -1,0 +1,65 @@
+.m_txt {
+  margin-top: clamp(0px, 5vh, 50px);
+  padding: clamp(0px, 3vw, 30px); 
+}
+
+.m_h_wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m_h {  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.m_h_svg{
+  width: 25vw;
+  min-width: 100px;
+}
+
+.m_h_txt{
+  margin-top: 20px;
+}
+
+.m_h_txt h1{
+  font-family: 'Chab', sans-serif;
+  font-size: clamp(20px, 5vw, 50px);
+  font-weight: lighter;
+  overflow: hidden; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  color: inherit;
+  letter-spacing: 3px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: 
+    typing 2s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+.blink {
+  animation: blink 0.8s infinite;
+}
+
+.m_s_txt {
+  font-size: clamp(15px, 2vw, 20px);
+  text-align: center;
+  margin: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
